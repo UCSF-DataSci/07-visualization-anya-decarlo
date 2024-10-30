@@ -11,7 +11,6 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 ```
-
 Tips for the data:
 - Use `df = pd.read_csv(FILENAME)` to read the data
 - You can make a dict of dataframes as `data = {}; data[COUNTRY] = pd.read_csv(COUNTRY_FILENAME)`
